@@ -1,0 +1,20 @@
+2025-05-16 14:01:44 [@c3f80c9d1723]
+[login] 3: glpi fez login no IP 172.21.0.1
+2025-05-16 14:35:00 [@c3f80c9d1723]
+[login] 3: jj fez login no IP 172.21.0.1
+2025-05-16 14:37:25 [@c3f80c9d1723]
+[login] 3: Login falhou para jj no IP 172.21.0.1
+2025-05-16 14:37:31 [@c3f80c9d1723]
+[login] 3: jj fez login no IP 172.21.0.1
+2025-05-16 14:40:34 [@c3f80c9d1723]
+[login] 3: jj fez login no IP 172.21.0.1
+2025-05-16 14:57:43 [@01f36f9348e3]
+[login] 3: jj fez login no IP 172.26.0.1
+2025-05-16 14:58:03 [7@01f36f9348e3]
+[setup] [Plugin 9] 3: Plugin Single Sign-on foi instalado por Junior Jair (7).
+2025-05-16 14:58:16 [7@01f36f9348e3]
+[setup] [Plugin 10] 3: Plugin Single Sign-on foi ativado por Junior Jair (7).
+2025-05-16 15:00:45 [@01f36f9348e3]
+[login] 3: jj fez login no IP 172.26.0.1
+2025-05-16 15:09:04 [@01f36f9348e3]
+[login] 3: jj fez login no IP 172.26.0.1

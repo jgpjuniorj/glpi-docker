@@ -1,0 +1,41 @@
+[2025-05-16 13:55:22] glpiphplog.WARNING: Test logger  
+[2025-05-16 14:58:03] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_singlesignon_providers`.`id`. in /var/www/html/src/DBmysql.php at line 2169
+  Backtrace :
+  src/DBmysql.php:2169                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/singlesignon/hook.php:253                  DBmysql->query()
+  src/Plugin.php:955                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src/Marketplace/Controller.php:546                 call_user_func()
+  src/Marketplace/Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax/marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2025-05-16 14:58:03] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_singlesignon_providers_users`.`id`. in /var/www/html/src/DBmysql.php at line 2169
+  Backtrace :
+  src/DBmysql.php:2169                               trigger_error()
+  src/DBmysql.php:386                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:348                                DBmysql->doQuery()
+  plugins/singlesignon/hook.php:308                  DBmysql->query()
+  src/Plugin.php:955                                 plugin_singlesignon_install()
+  :                                                  Plugin->install()
+  src/Marketplace/Controller.php:546                 call_user_func()
+  src/Marketplace/Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  ajax/marketplace.php:83                            Glpi\Marketplace\Controller->installPlugin()
+  
+[2025-05-16 15:03:15] glpiphplog.WARNING:   *** PHP Warning (2): mkdir(): No such file or directory in /var/www/html/plugins/singlesignon/inc/toolbox.class.php at line 144
+  Backtrace :
+  plugins/singlesignon/inc/toolbox.class.php:144     mkdir()
+  plugins/singlesignon/inc/provider.class.php:470    PluginSinglesignonToolbox::savePicture()
+  plugins/singlesignon/inc/provider.class.php:350    PluginSinglesignonProvider->prepareInput()
+  src/CommonDBTM.php:1627                            PluginSinglesignonProvider->prepareInputForUpdate()
+  plugins/singlesignon/front/provider.form.php:79    CommonDBTM->update()
+  
+[2025-05-16 15:14:57] glpiphplog.WARNING:   *** PHP Warning (2): mkdir(): No such file or directory in /var/www/html/plugins/singlesignon/inc/toolbox.class.php at line 144
+  Backtrace :
+  plugins/singlesignon/inc/toolbox.class.php:144     mkdir()
+  plugins/singlesignon/inc/provider.class.php:470    PluginSinglesignonToolbox::savePicture()
+  plugins/singlesignon/inc/provider.class.php:350    PluginSinglesignonProvider->prepareInput()
+  src/CommonDBTM.php:1627                            PluginSinglesignonProvider->prepareInputForUpdate()
+  plugins/singlesignon/front/provider.form.php:79    CommonDBTM->update()
+  
